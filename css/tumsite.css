@@ -1,0 +1,84 @@
+/* Genel tanýmlar */
+
+body { padding: 0; margin: 0; background: #3ca4ff }
+div.clear { clear: both; }
+
+/* Sayfanýn üst kýsmý */
+
+.sayfaust { text-align: center; }
+
+.sayfaust .menu { margin-top: 10px; text-align: center; background: url("../grafik/menu-bg.gif") top left repeat-x; height: 53px; }
+
+.sayfaust .liste { width: 950px; margin: auto; }
+.sayfaust .liste ul { margin: auto; width: 100%; height: 43px; background: url("../grafik/menu-bg.gif") top left repeat-x; font-size: 0.7em; font-family: Verdana, sans-serif; font-weight: bold; list-style-type: none; margin: 0; padding: 0; }
+.sayfaust .liste ul li { display: block; float: left; margin: 0 0 0 5px; }
+.sayfaust .liste ul li a { height: 43px; color: #777; text-decoration: none; display: block; float: left; line-height: 200%; padding: 9px 4px 0; }
+.sayfaust .liste ul li a:hover { color: #333; }
+.sayfaust .liste ul li a.aciksayfa{ color: #FFF; background: url("../grafik/menu-aciksayfa-bg.gif") top left repeat-x; padding: 8px 8px 0; }
+
+.sayfaust .logoarama { border-top: solid 1px #2b4aa5; border-bottom: solid 1px #2b4aa5; background: #2b4aa5; margin: 0 0 5px 0; }
+.sayfaust .usttablo { color: white; font-family: Verdana; font-size: 12px; font-weight: bold; width: 100%; }
+.sayfaust .usttablo .logo { text-align: center; width: 30%; }
+.sayfaust .usttablo .aramaust { padding: 5px 0 0 0; text-align: center; width: 50%; }
+.sayfaust .usttablo .aramaalt { padding: 0; text-align: center; width: 50%; }
+.sayfaust .usttablo .sosyalmedya { text-align: center; width: 20%; }
+.sayfaust .usttablo .sosyalmedya img { width: 50px; height: 50px; border-style: none; }
+
+.sayfaust .menualtireklam { background-color: #f1f7fc; padding: 6px; margin: 0 0 5px 0; text-align: center; border-top: 1px solid navy; border-bottom: 1px solid navy; }
+.sayfaust .menualtireklam .bluesat { margin: 3px auto; text-align: center; }
+.sayfaust .menualtireklam .googlebb { margin: auto; border: 1px solid navy; background-color: #f1f1f1; padding: 3px 0; width: 936px; }
+* html .sayfaust .menualtireklam .googlebb { w\idth: 940px; }
+* html .sayfaust .menualtireklam .googlebb { margin: 3px; m\argin: 3px; }
+.sayfaust .menualtireklam .bosreklam { width: 370px; height: 43px; background-color: white; border: 1px solid black; text-align: center; font-family: Verdana; font-weight: bold; padding-top: 3px; }
+.sayfaust .menualtireklam reklamtablodiv { text-align: center; }
+.sayfaust .menualtireklam table { width: 100%; }
+* html .sayfaust .menualtireklam table { width: 96%; w\idth: 96% }
+.sayfaust .menualtireklam td.sol { padding-right: 5px; text-align: right; }
+.sayfaust .menualtireklam td.orta { text-align: center; width: 178px; font-family: Verdana; font-weight: bold; border: solid 1px black; background-color: white; }
+.sayfaust .menualtireklam td.sag { padding-left: 5px; }
+
+.sayfaust .sayfabasligi { margin-bottom: 3px; padding: 4px 2px 2px 2px; height: 24px; border-left: solid 1px navy; border-right: solid 1px navy; text-align: center; background: url('../grafik/sayfabasligi-fon.gif') repeat-x; color: white; font-family: 'Tahoma'; font-size: 18px; font-weight: bold; }
+* html .sayfaust .sayfabasligi { height: 30px; h\eight: 30px; }
+
+/* Sayfanýn içerik kýsmý*/
+
+.sayfaicerik { padding: 0 10px 10px 10px; text-align: center; }
+
+.sayfaicerik .anatablo { width: 100%; }
+* html .sayfaicerik .anatablo { width: 98%; w\idth: 98%; }
+
+.sayfaicerik .anatablo td.solsutunmenu { width: 137px; vertical-align: top; }
+.sayfaicerik .anatablo td.sagsutunmenu { width: 137px; vertical-align: top; }
+.sayfaicerik .anatablo td.solsutunreklam { width: 164px; vertical-align: top; }
+.sayfaicerik .anatablo td.sagsutunreklam { width: 164px; vertical-align: top; }
+
+.sayfaicerik .anatablo .ortasutun { padding: 2px 10px 10px 10px; vertical-align: top; }
+
+.sayfaicerik .anatablo .ortasutun .icerik { background-color: #f1f7fc; border: solid 1px black; width: 100%; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo { width: 100%; font-family: 'Verdana'; font-size: 12px; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .duyuru { margin: 5px 1px; padding: 6px 2px 2px 2px; height: 22px; border-left: solid 1px #bdbdbd; border-right: solid 1px #bdbdbd; text-align: center; background: url('../grafik/duyuru-fon.gif') repeat-x; color: white; font-size: 13px; font-weight: bold; }
+* html .sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .duyuru { height: 30px; h\eight: 30px; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .duyuru-aciksari { margin: 5px 1px; padding: 6px 2px 2px 2px; height: 22px; border-left: solid 1px #bdbdbd; border-right: solid 1px #bdbdbd; text-align: center; background: url('../grafik/duyuru-aciksari-fon.gif') repeat-x; color: #2F2F2F; font-size: 13px; font-weight: bold; }
+* html .sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .duyuru-aciksari { height: 30px; h\eight: 30px; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .duyuru-acikyesil { margin: 5px 1px; padding: 6px 2px 2px 2px; height: 22px; border-left: solid 1px #bdbdbd; border-right: solid 1px #bdbdbd; text-align: center; background: url('../grafik/duyuru-acikyesil-fon.gif') repeat-x; color: #2F2F2F; font-size: 13px; font-weight: bold; }
+* html .sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .duyuru-acikyesil { height: 30px; h\eight: 30px; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .duyuru-acikturuncu { margin: 5px 1px; padding: 6px 2px 2px 2px; height: 22px; border-left: solid 1px #bdbdbd; border-right: solid 1px #bdbdbd; text-align: center; background: url('../grafik/duyuru-acikturuncu-fon.gif') repeat-x; color: #2F2F2F; font-size: 13px; font-weight: bold; }
+* html .sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .duyuru-acikturuncu { height: 30px; h\eight: 30px; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .haber { margin: 5px 1px; padding: 6px 2px 2px 2px; height: 22px; border-left: solid 1px #bdbdbd; border-right: solid 1px #bdbdbd; text-align: center; background: url('../grafik/haber-fon.gif') repeat-x; color: white; font-size: 13px; font-weight: bold; }
+* html .sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .haber { height: 30px; h\eight: 30px; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .baslik { margin: 5px 1px; padding: 6px 2px 2px 2px; height: 22px; border-left: solid 1px #a8a8a8; border-right: solid 1px #a8a8a8; text-align: center; background: url('../grafik/baslik-fon.gif') repeat-x; color: #3F3F3F; font-size: 13px; font-weight: bold; }
+* html .sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .baslik { height: 30px; h\eight: 30px; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .guncellemeflash { margin: 0px; padding: 3px 1px 2px 45px; border: solid 1px #eaeaea; font-size: 11px; font-style: italic; background: url('../grafik/flash.gif') no-repeat; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .guncellemenormal { margin: 0px; padding: 3px 1px 2px 25px; border: solid 1px #eaeaea; font-size: 11px; font-style: italic; background: url('../grafik/liste-mavi.png') no-repeat; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .reklam { margin: 10px 0; text-align: center; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .latestchannels { width: 100%; font-size: 0.8em; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .latestchannels .sol { width: 50%; text-align: right; padding-right: 5px; }
+.sayfaicerik .anatablo .ortasutun .icerik .iceriktablo .latestchannels .sag { width: 50%; padding-left: 5px; }
+.sayfaicerik .anatablo .ortasutun .icerik .ortali { margin: 0; padding: 1px; text-align: center; }
+.sayfaicerik .anatablo .ortasutun .icerik .kayanyazi { margin: 5px; padding: 5px; text-align: center; border: solid 1px gray; background-color: #F2F2F2; }
+
+.sayfaalti { margin: 10px 10px 0 10px; padding: 10px 10px 0 10px; background-color: #81bbfd; border: solid 1px black; }
+.sayfaalti .reklam { margin: 0 0 10px 0; padding: 10px; font-family: 'Verdana'; font-size: 12px; text-align: center; border: solid 1px black; background-color: #f1f7fc; }
+
+.sayfasonu { margin: 12px 20px 0 20px; text-align: center; font-family: Verdana; font-size: 10px; color: #333; }
+.sayfasonu .telif { border-top: 1px solid #555; padding: 12px 0 12px 0; }
